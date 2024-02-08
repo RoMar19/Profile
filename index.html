@@ -52,19 +52,39 @@
     <h2 class="w3-text-grey">My Portfolio</h2>
     <hr class="w3-opacity">
 
-    <!-- Projects photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <a href="https://e-commerce-yeln.onrender.com/" target="_blank"><img src="static/images/e-commerce-yeldn.onrenderPythonDjango.jpeg" alt="E-commerce Project Python" style="width:50%"></a>
-      </div>
-
-      <div class="w3-half">
-        <a href="https://romar19.github.io/Housing-project/" target="_blank"><img src="static/images/HousingProjectJS.jpeg" alt="Housing Project JS" style="width:50%"></a>
-      </div>
-    <!-- End Projects photos -->
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="https://romar19.github.io/Housing-project/" target="_blank"><img src="static/images/HousingProjectJS.jpeg" alt="Housing Project JS" style="width:100%"></a>
+      <p class="gallery">Housing Project JavaScript</p>
     </div>
-  <!-- End Portfolio Section -->
   </div>
+  <div class="column">
+    <div class="content">
+      <a href="https://building-in-green.onrender.com/" target="_blank"><img src="static/images/building-in-green.onrenderPythonFlask.jpeg" alt="Building in Geen Flask" style="width:100%"></a>
+      <p class="gallery">CRUD App Python and Flask</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="https://e-commerce-yeln.onrender.com/" target="_blank"><img src="static/images/e-commerce-yeln.onrenderPythonDjango.jpeg" alt="E-commerce Project Python" style="width:100%"></a>
+      <p class="gallery">Webshop Python Django</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="https://romar19.github.io/webalmu.github.oi/" target="_blank"><img src="static/images/Psicoweb-almu.png" alt="Psico Profile" style="width:100%"></a>
+      <p class="gallery">Professional Profile HTML/CSS</p>
+    </div>
+  </div>
+
+</div>
+
+  <!-- End Portfolio Galery -->
+</div>
+  <!-- End Portfolio Section -->
+
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
@@ -88,42 +108,44 @@
 
     <h3 class="w3-padding-16">Other Skills and Stacks</h3>
     <p>I do all kind of neat stuff</p>
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Frontend and Backend</span><br>
-        <ul>
+
+    <div class="w3-cell-row">
+      <div class="w3-container w3-dark-grey w3-cell-middle w3-mobile">
+        <h3 class="w3-center">Frontend and Backend</h3>
+        <ul class="w3-ul w3-center">
           <li>Visual Studio Code</li>
           <li>Chrome DevTools</li>
           <li>Bootstrap</li>
           <li>Flask</li>
           <li>Django</li>
           <li>Heroku</li>
+          <li>Render</li>
         </ul>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Data Analytics and Visualization</span><br>
-        <ul>
-          <li>Google Data Analytics</il>
-          <li>Google Tag Management</il>
-          <li>Jupyter Notebook</il>
-          <il>Tableau</il>
+      <div class="w3-container w3-dark-grey w3-cell-middle w3-mobile">
+        <h3 class="w3-center">Data Analytics and Visualization</h3>
+        <ul class="w3-ul w3-center">
+          <li>Google Data Analytics</li>
+          <li>Google Tag Management</li>
+          <li>Jupyter Notebook</li>
+          <li>Tableau</li>
         </ul>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Data Bases and Web Storage</span><br>
-        <ul>
-         <li>SQL</li>
-         <li>MongoDB</li>
-         <li>GCP</li>
-         <li>AWS</li>
-      </ul>
+      <div class="w3-container w3-dark-grey w3-cell-middle w3-mobile">
+        <h3 class="w3-center">Data Bases and Web Storage</h3>
+        <ul class="w3-ul w3-center">
+          <li>SQL</li>
+          <li>MongoDB</li>
+          <li>GCP</li>
+          <li>AWS</li>
+       </ul>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">Version Control</span><br>
-        <ul>
-         <li>Git</li>
-         <li>Github</li>
-      </ul>
+      <div class="w3-container w3-dark-grey w3-cell-middle w3-mobile">
+        <h3 class="w3-center">Version Control</h3>
+        <ul class="w3-ul w3-center">
+          <li>Git</li>
+          <li>Github</li>
+       </ul>
       </div>
     </div>
 
@@ -148,7 +170,7 @@
     
    
     <p>Lets get in touch. Send me a message:</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="mailto:romartinaqua@gmail.com" method="post" enctype="text/plain">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
